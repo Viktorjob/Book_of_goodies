@@ -3,7 +3,7 @@ import 'package:projekt_ap_mobilr/Dinner/carbonara.dart';
 import 'package:projekt_ap_mobilr/Dinner/krab.dart';
 import 'package:projekt_ap_mobilr/Dinner/meat.dart';
 import 'package:projekt_ap_mobilr/Dinner/soup.dart';
-import 'package:projekt_ap_mobilr/Page/Api_button.dart';
+
 import 'package:projekt_ap_mobilr/Page/Egg.dart';
 import 'package:projekt_ap_mobilr/Page/Peanut.dart';
 import 'package:projekt_ap_mobilr/Page/breakefast.dart';
@@ -19,8 +19,9 @@ import 'package:projekt_ap_mobilr/luch/sause.dart';
 import 'package:projekt_ap_mobilr/luch/spegett.dart';
 import 'package:projekt_ap_mobilr/menubar/help.dart';
 import 'package:projekt_ap_mobilr/menubar/list.dart';
-
 import 'package:projekt_ap_mobilr/naviigation_drawer.dart';
+
+
 void main() {
   runApp( MaterialApp(
     debugShowCheckedModeBanner: false,
@@ -33,8 +34,7 @@ void main() {
       "/lunch":(context) => lunch(),
       "/dinner":(context) => dinner(),
       "/egg":(context) => eggs(),
-      "/api":(context) => Api(),
-      "/cake":(context) => cake(),
+      "/cake":(context) => Cake(),
       "/pean":(context) => peant(),
       "/chees":(context) => chees(),
       "/spag":(context) => spag(),
@@ -63,7 +63,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
 
     return Scaffold(
-        drawer: const NavigationDrawer(),
+        drawer:  NavigationDrawer1(),
 
         appBar: AppBar(
 

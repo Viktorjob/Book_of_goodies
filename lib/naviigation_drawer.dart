@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:projekt_ap_mobilr/Page/Api_button.dart';
+
 import 'package:projekt_ap_mobilr/Page/about.dart';
 import 'package:projekt_ap_mobilr/Page/expocamera.dart';
 import 'package:projekt_ap_mobilr/Page/top.dart';
 import 'package:projekt_ap_mobilr/Page/katalog.dart';
 import 'package:projekt_ap_mobilr/drawer_item.dart';
 
-class NavigationDrawer extends StatelessWidget {
-  const NavigationDrawer({Key? key}) : super(key: key);
+class NavigationDrawer1 extends StatelessWidget {
+  const NavigationDrawer1({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +18,7 @@ class NavigationDrawer extends StatelessWidget {
           padding: const EdgeInsets.fromLTRB(24.0, 80, 24, 0),
           child: Column(
             children: [
-              headerWidget(),
+
               const SizedBox(height: 40,),
               const Divider(thickness: 1, height: 10, color: Colors.grey,),
               const SizedBox(height: 40,),
@@ -47,12 +47,7 @@ class NavigationDrawer extends StatelessWidget {
                   icon: Icons.settings,
                   onPressed: ()=> onItemPressed(context, index: 2)
               ),
-              const SizedBox(height: 30,),
-              DrawerItem(
-                  name: 'API',
-                  icon: Icons.info,
-                  onPressed: ()=> onItemPressed(context, index: 4)
-              ),
+
 
 
             ],
@@ -78,31 +73,7 @@ class NavigationDrawer extends StatelessWidget {
       case 3:
         Navigator.push(context, MaterialPageRoute(builder: (context) => expo()));
         break;
-      case 4:
-        Navigator.push(context, MaterialPageRoute(builder: (context) => Api()));
-        break;
+
     }
-  }
-
-  Widget headerWidget() {
-    const url = 'https://media.istockphoto.com/photos/kazanskiy-flavor-picture-id470417606?s=612x612';
-    return Row(
-      children: [
-        const CircleAvatar(
-          radius: 40,
-          backgroundImage: NetworkImage(url),
-        ),
-        const SizedBox(width: 20,),
-        Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: const [
-            Text('Viktor', style: TextStyle(fontSize: 14, color: Colors.white)),
-            SizedBox(height: 10,),
-            Text('Viktor@gmail.com', style: TextStyle(fontSize: 14, color: Colors.white))
-          ],
-        )
-      ],
-    );
-
   }
 }

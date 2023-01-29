@@ -66,7 +66,7 @@ class  chees extends StatelessWidget {
                       ),
                       Column(
                           children: [
-                            Text ('Recept'),
+                            Text ('Recipe'),
                             Padding(padding: EdgeInsets.symmetric(vertical: 5)),
                             Text ('1. Preheat the oven to 375F (190C).'),
                             Padding(padding: EdgeInsets.symmetric(vertical: 8)),

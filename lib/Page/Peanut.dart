@@ -66,7 +66,7 @@ class  peant extends StatelessWidget {
                       ),
                       Column(
                           children: [
-                            Text ('Recept'),
+                            Text ('Recipe'),
                             Padding(padding: EdgeInsets.symmetric(vertical: 5)),
                             Text ('1. In a small saucepan, bring water and salt to a boil. Stir in oats; cook 5 minutes over medium heat, stirring occasionally. Transfer oatmeal to 2 bowls; in each bowl, stir half each peanut butter, honey, flaxseed, cinnamon and, if desired, apple. Serve immediately.'),
 

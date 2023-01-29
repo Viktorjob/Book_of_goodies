@@ -67,7 +67,7 @@ class  meat extends StatelessWidget {
                       ),
                       Column(
                           children: [
-                            Text ('Recept'),
+                            Text ('Recipe'),
                             Padding(padding: EdgeInsets.symmetric(vertical: 5)),
                             Text ('1. Set the oven to 200°.'),
                             Padding(padding: EdgeInsets.symmetric(vertical: 5)),

@@ -15,10 +15,10 @@ class  eggs extends StatelessWidget {
 
       ),
         body: Container(
-          child: Column(
-            children: [
-            Padding(padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
-              child: Container(
+              child: ListView(
+                 children: [
+                     Padding(padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
+                        child: Container(
 
                 decoration: BoxDecoration(
 
@@ -67,7 +67,22 @@ class  eggs extends StatelessWidget {
                     ),
                     Column(
                       children: [
-                      Text ('Recept'),
+                      Text ('Ingredients', style:  TextStyle( fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold,),),
+                        Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                        Text ('6 large eggs'),
+                        Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                        Text ('2 tbsp. milk'),
+                        Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                        Text ('1/4 tsp. garlic powder'),
+                        Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                        Text ('1 tbsp. butter'),
+                        Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                        Text ('1 tbsp. finely chopped chives'),
+                        Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                        Text ('12 slices bacon'),
+                        Text ('Recept', style:  TextStyle( fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold,),),
+                        Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                        Text ('1. Bacon thinly sliced'),
                         Padding(padding: EdgeInsets.symmetric(vertical: 5)),
                       Text ('1. Bacon thinly sliced'),
                         Padding(padding: EdgeInsets.symmetric(vertical: 5)),
@@ -86,12 +101,10 @@ class  eggs extends StatelessWidget {
                     )
                   ],
                 ),
-
               ),
-
-
             ),
-      ]
+      ],
+
           ),
         ),
 

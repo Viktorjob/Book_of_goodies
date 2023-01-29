@@ -67,7 +67,7 @@ class  krab extends StatelessWidget {
                       ),
                       Column(
                           children: [
-                            Text ('Recept'),
+                            Text ('Recipe'),
                             Padding(padding: EdgeInsets.symmetric(vertical: 5)),
                             Text ('1. Melt 50 g of the butter. Wash the potatoes and coarsely grate them. Mix potatoes with butter and salt.'),
                             Padding(padding: EdgeInsets.symmetric(vertical: 5)),

@@ -67,7 +67,7 @@ class  potato extends StatelessWidget {
                       ),
                       Column(
                           children: [
-                            Text ('Recept'),
+                            Text ('Recipe'),
                             Padding(padding: EdgeInsets.symmetric(vertical: 5)),
                             Text ('1. Shred chicken fillets and zucchini. Fry everything in butter & rapeseed oil in a frying pan until it has a nice color and the chicken is ready.'),
                             Padding(padding: EdgeInsets.symmetric(vertical: 5)),

@@ -67,7 +67,7 @@ class  oven extends StatelessWidget {
                       ),
                       Column(
                           children: [
-                            Text ('Recept'),
+                            Text ('Recipe'),
                             Padding(padding: EdgeInsets.symmetric(vertical: 5)),
                             Text ('1. Heat the oven to 200° fan or 225° conventional oven.'),
                             Padding(padding: EdgeInsets.symmetric(vertical: 5)),
