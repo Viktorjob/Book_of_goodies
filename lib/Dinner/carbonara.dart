@@ -15,7 +15,7 @@ class  carbon extends StatelessWidget {
 
       ),
       body: Container(
-        child: Column(
+        child: ListView(
             children: [
               Padding(padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
                 child: Container(
@@ -67,7 +67,19 @@ class  carbon extends StatelessWidget {
                       ),
                       Column(
                           children: [
-                            Text ('Recipe'),
+                            Text ('Ingredients', style:  TextStyle( fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold,),),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('150 g dried spaghetti'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('2 rashers of higher-welfare smoked streaky bacon'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('olive oil'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('2 free-range eggs'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('30 g Parmesan cheese , plus extra for grating'),
+
+                            Text ('Recipe', style:  TextStyle( fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold,),),
                             Padding(padding: EdgeInsets.symmetric(vertical: 5)),
                             Text ('1. Cook the spaghetti according to the instructions on the package.'),
                             Padding(padding: EdgeInsets.symmetric(vertical: 5)),

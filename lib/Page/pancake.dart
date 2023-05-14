@@ -70,7 +70,24 @@ class Cake extends StatelessWidget {
     child: Column(
     children: [
     Padding(padding: EdgeInsets.symmetric(vertical: 5)),
-    Text('Recipe'),
+      Text('Ingredients', style:  TextStyle( fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold,),),
+      Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+      Text(
+        '225g self-raising flour, 100g dark chocolate chips',
+      ),
+      Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+      Text(
+        '50g cocoa powder, sieved, 1 tbsp vegetable oil',
+      ),
+      Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+      Text(
+        '1 tsp baking powder, 2 large eggs',
+      ),
+      Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+      Text(
+        '400ml whole milk, 50g unsalted butter, cubed',
+      ),
+    Text('Recipe', style:  TextStyle( fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold,),),
     Padding(padding: EdgeInsets.symmetric(vertical: 5)),
     Text(
     '1. Knead the dough from the sifted flour with salt, sugar, eggs and milk. Grate chocolate on a coarse grater.',

@@ -15,7 +15,7 @@ class  potato extends StatelessWidget {
 
       ),
       body: Container(
-        child: Column(
+        child: ListView(
             children: [
               Padding(padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
                 child: Container(
@@ -67,7 +67,22 @@ class  potato extends StatelessWidget {
                       ),
                       Column(
                           children: [
-                            Text ('Recipe'),
+                            Text ('Ingredients', style:  TextStyle( fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold,),),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('2 tbsp olive oil'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('400g/14oz beef mince'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('1 onion, diced'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('2 garlic cloves, chopped'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('100g/3½oz carrot, grated'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('2 x 400g tins chopped tomatoes'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('400g/14oz dried spaghetti'),
+                            Text ('Recipe', style:  TextStyle( fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold,),),
                             Padding(padding: EdgeInsets.symmetric(vertical: 5)),
                             Text ('1. Shred chicken fillets and zucchini. Fry everything in butter & rapeseed oil in a frying pan until it has a nice color and the chicken is ready.'),
                             Padding(padding: EdgeInsets.symmetric(vertical: 5)),

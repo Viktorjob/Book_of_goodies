@@ -15,7 +15,7 @@ class  sause extends StatelessWidget {
 
       ),
       body: Container(
-        child: Column(
+        child: ListView(
             children: [
               Padding(padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
                 child: Container(
@@ -67,7 +67,27 @@ class  sause extends StatelessWidget {
                       ),
                       Column(
                           children: [
-                            Text ('Recipe'),
+                            Text ('Ingredients', style:  TextStyle( fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold,),),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('20g unsalted butter'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('6 pork sausages'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('olive oil, for drizzling'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('350g chestnut mushrooms, sliced'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('1 tsp sweet smoked paprika'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('300ml soured cream'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('150ml beef stock'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('½ tbsp wholegrain mustard'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('400g dried tagliatelle'),
+
+                            Text ('Recipe', style:  TextStyle( fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold,),),
                             Padding(padding: EdgeInsets.symmetric(vertical: 5)),
                             Text ('1.Cook the rice according to the instructions on the package.'),
                             Padding(padding: EdgeInsets.symmetric(vertical: 5)),

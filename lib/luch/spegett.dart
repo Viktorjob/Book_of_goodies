@@ -15,7 +15,7 @@ class  spag extends StatelessWidget {
 
       ),
       body: Container(
-        child: Column(
+        child: ListView(
             children: [
               Padding(padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
                 child: Container(
@@ -67,7 +67,20 @@ class  spag extends StatelessWidget {
                       ),
                       Column(
                           children: [
-                            Text ('Recipe'),
+                            Text ('Ingredients', style:  TextStyle( fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold,),),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('2 tbsp olive oil'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('2 garlic cloves, chopped'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('100g/3½oz carrot, grated'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('400ml/14fl oz stock '),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('400g/14oz dried spaghetti'),
+
+                            Text ('Recipe', style:  TextStyle( fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold,),),
+
                             Padding(padding: EdgeInsets.symmetric(vertical: 5)),
                             Text ('1. Cook the spaghetti according to the instructions on the package.'),
                             Padding(padding: EdgeInsets.symmetric(vertical: 5)),

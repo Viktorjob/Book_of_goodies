@@ -15,7 +15,7 @@ class  soup extends StatelessWidget {
 
       ),
       body: Container(
-        child: Column(
+        child: ListView(
             children: [
               Padding(padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
                 child: Container(
@@ -67,7 +67,34 @@ class  soup extends StatelessWidget {
                       ),
                       Column(
                           children: [
-                            Text ('Recipe'),
+                            Text ('Ingredients', style:  TextStyle( fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold,),),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('2 pounds ground beef'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('4 carrots, diced'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('4 celery ribs, chopped'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('1 onion, chopped'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('4 potatoes, peeled and cut into 1-inch pieces'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('1 (15.25 ounce) can whole kernel corn, drained and rinsed'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('1 (15 ounce) can green beans, drained and rinsed'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('1 (15 ounce) can tomato sauce'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('1 (14.5 ounce) can whole tomatoes, crushed'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('1 bay leaf, or more to taste'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('⅛ teaspoon ground thyme'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('¼ cup water, as needed'),
+
+
+                            Text ('Recipe', style:  TextStyle( fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold,),),
                             Padding(padding: EdgeInsets.symmetric(vertical: 5)),
                             Text ('1. Peel and finely chop the onion and garlic. Dice peppers and potatoes.'),
                             Padding(padding: EdgeInsets.symmetric(vertical: 5)),

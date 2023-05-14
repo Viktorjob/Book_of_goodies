@@ -15,7 +15,7 @@ class  meat extends StatelessWidget {
 
       ),
       body: Container(
-        child: Column(
+        child: ListView(
             children: [
               Padding(padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
                 child: Container(
@@ -67,7 +67,26 @@ class  meat extends StatelessWidget {
                       ),
                       Column(
                           children: [
-                            Text ('Recipe'),
+                            Text ('Ingredients', style:  TextStyle( fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold,),),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('1-1/2 pounds Ground Beef (93% lean or leaner)'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('3/4 cup panko bread crumbs'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('3/4 cup ketchup, divided'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('1/2 cup minced onion'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('1 egg'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('1 tablespoon Worcestershire sauce'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('2 teaspoons minced garlic'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('3/4 teaspoon pepper'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('1/2 teaspoon salt'),
+                            Text ('Recipe', style:  TextStyle( fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold,),),
                             Padding(padding: EdgeInsets.symmetric(vertical: 5)),
                             Text ('1. Set the oven to 200°.'),
                             Padding(padding: EdgeInsets.symmetric(vertical: 5)),

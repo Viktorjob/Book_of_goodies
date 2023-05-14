@@ -9,12 +9,12 @@ class  chees extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.green,
-        title: Text('Pancake with chocolate'),
+        title: Text('Cheesy bacon and egg breakfast bombs recipe'),
         centerTitle: true,
 
       ),
       body: Container(
-        child: Column(
+        child: ListView(
             children: [
               Padding(padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
                 child: Container(
@@ -66,7 +66,22 @@ class  chees extends StatelessWidget {
                       ),
                       Column(
                           children: [
-                            Text ('Recipe'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('Ingredients',style:  TextStyle( fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold,),),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('4 Large Eggs'), Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('1 pound Applewood smoked bacon'),Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('2 tablespoons whole milk'),Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('pinch black pepper'),Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('16 frozen dinner yeast roll dough balls'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('flour, to dust counter'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('8 ounces shredded mild cheddar cheese'),
+
+
+
+                            Text ('Recipe',style:  TextStyle( fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold,),),
                             Padding(padding: EdgeInsets.symmetric(vertical: 5)),
                             Text ('1. Preheat the oven to 375F (190C).'),
                             Padding(padding: EdgeInsets.symmetric(vertical: 8)),

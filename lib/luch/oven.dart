@@ -15,7 +15,7 @@ class  oven extends StatelessWidget {
 
       ),
       body: Container(
-        child: Column(
+        child: ListView(
             children: [
               Padding(padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
                 child: Container(
@@ -67,7 +67,23 @@ class  oven extends StatelessWidget {
                       ),
                       Column(
                           children: [
-                            Text ('Recipe'),
+                            Text ('Ingredients', style:  TextStyle( fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold,),),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('1/2 cup Gold Medal™ all-purpose flour, sifted'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('3 eggs'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('1/2 cup milk'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('2 tablespoons melted butter'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('1 tablespoon sugar'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('1/4 teaspoon of salt'),
+
+
+
+                            Text ('Recipe', style:  TextStyle( fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold,),),
                             Padding(padding: EdgeInsets.symmetric(vertical: 5)),
                             Text ('1. Heat the oven to 200° fan or 225° conventional oven.'),
                             Padding(padding: EdgeInsets.symmetric(vertical: 5)),

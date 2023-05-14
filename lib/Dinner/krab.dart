@@ -15,7 +15,7 @@ class  krab extends StatelessWidget {
 
       ),
       body: Container(
-        child: Column(
+        child: ListView(
             children: [
               Padding(padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
                 child: Container(
@@ -67,7 +67,27 @@ class  krab extends StatelessWidget {
                       ),
                       Column(
                           children: [
-                            Text ('Recipe'),
+                            Text ('Ingredients', style:  TextStyle( fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold,),),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('4 live blue crabs or flower crabs'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('2-4 Tablespoons gochugaru (Korean pepper flakes), based on spice level'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('4 Tablespoons soy sauce '),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('1 Tablespoon corn / rice syrup, honey or sugar'),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('2 garlic cloves, minced or grated '),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('2 Tablespoons rice vinegar  '),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('1 Tablespoon sesame oil '),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
+                            Text ('1 Tablespoon sesame seeds'),
+
+
+                            Text ('Recipe', style:  TextStyle( fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold,),),
+                            Padding(padding: EdgeInsets.symmetric(vertical: 5)),
                             Padding(padding: EdgeInsets.symmetric(vertical: 5)),
                             Text ('1. Melt 50 g of the butter. Wash the potatoes and coarsely grate them. Mix potatoes with butter and salt.'),
                             Padding(padding: EdgeInsets.symmetric(vertical: 5)),
